@@ -12,31 +12,41 @@
 
 <body>
 
-  <header class="d-flex" style="height: 200px;">
-    <h1 class="vr">
+  <header class="d-flex justify-content-between">
+
+    <h1 class="border-start border-warning ms-2">
       Eva Wolfe
       <small class="text-body-secondary">Full Stack Web Developer</small>
     </h1>
+
+    <!-- Nav Bar -->
+    <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop"
+      aria-controls="offcanvasTop">Menu</button>
+
+    <div class="offcanvas offcanvas-top" tabindex="-1" id="offcanvasTop" aria-labelledby="offcanvasTopLabel">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasTopLabel">Menu</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <nav>
+          <a href="#">About Me</a>
+          <a href="#">Work</a>
+          <a href="#">Contact</a>
+          <a href="#">Resume</a>
+        </nav>
+      </div>
+    </div>
   </header>
-
-
-  <!-- Nav Bar -->
-
-  <!-- <nav>
-    <a href="">About Me</a>
-    <a href="">Work</a>
-    <a href="">Contact</a>
-    <a href="">Resume</a>
-  </nav> -->
 
   <main>
 
     <!-- About Me -->
-    <section class="container">
+    <section class="container flex-column">
       <!-- BootStrap Button wraps around h2 -->
 
-      <h2 class="" type="button" data-bs-toggle="collapse" data-bs-target="#collapseAboutMe" aria-expanded="false"
-        aria-controls="collapseAboutMe">About Me</h2>
+      <h2 class="text-center" type="button" data-bs-toggle="collapse" data-bs-target="#collapseAboutMe"
+        aria-expanded="false" aria-controls="collapseAboutMe">About Me</h2>
 
       <!-- Div class & id used to collapse wraps around p -->
       <div class="collapse" id="collapseAboutMe">
@@ -59,8 +69,8 @@
     <section class="container">
       <!-- Bootstrap Button wraps around h2-->
 
-      <h2 lass="" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWork" aria-expanded="false"
-        aria-controls="collapseWork">Work</h2>
+      <h2 class="text-center" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWork"
+        aria-expanded="false" aria-controls="collapseWork">Work</h2>
 
       <!-- Div class & id used to collapse wraps around p -->
       <div class="collapse" id="collapseWork">
@@ -77,8 +87,8 @@
     <section class="container">
       <!-- Bootstrap Button wraps around h2 -->
 
-      <h2 lass="" type="button" data-bs-toggle="collapse" data-bs-target="#collapseContactMe" aria-expanded="false"
-        aria-controls="collapseContactMe">Contact Me</h2>
+      <h2 class="text-center type=" button" data-bs-toggle="collapse" data-bs-target="#collapseContactMe"
+        aria-expanded="false" aria-controls="collapseContactMe">Contact Me</h2>
 
       <!-- Div class & id used to collapse wraps around p -->
 
