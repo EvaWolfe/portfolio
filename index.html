@@ -11,24 +11,28 @@
 </head>
 
 <body>
-  <header>
-    <h1>
+
+  <header class="d-flex" style="height: 200px;">
+    <h1 class="vr">
       Eva Wolfe
       <small class="text-body-secondary">Full Stack Web Developer</small>
     </h1>
   </header>
 
+
   <!-- Nav Bar -->
-  <nav>
+
+  <!-- <nav>
     <a href="">About Me</a>
     <a href="">Work</a>
     <a href="">Contact</a>
     <a href="">Resume</a>
-  </nav>
+  </nav> -->
+
   <main>
 
     <!-- About Me -->
-    <section>
+    <section class="container">
       <!-- BootStrap Button wraps around h2 -->
 
       <h2 class="" type="button" data-bs-toggle="collapse" data-bs-target="#collapseAboutMe" aria-expanded="false"
@@ -36,6 +40,11 @@
 
       <!-- Div class & id used to collapse wraps around p -->
       <div class="collapse" id="collapseAboutMe">
+
+        <!-- Profile Picture -->
+
+        <img src="assets/images/profile.png" class="rounded float-end" alt="">
+
 
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, assumenda! Et facilis placeat quidem,
@@ -47,7 +56,7 @@
     </section>
 
     <!-- Work -->
-    <section>
+    <section class="container">
       <!-- Bootstrap Button wraps around h2-->
 
       <h2 lass="" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWork" aria-expanded="false"
@@ -65,7 +74,7 @@
     </section>
 
     <!-- Contact Me -->
-    <section>
+    <section class="container">
       <!-- Bootstrap Button wraps around h2 -->
 
       <h2 lass="" type="button" data-bs-toggle="collapse" data-bs-target="#collapseContactMe" aria-expanded="false"
