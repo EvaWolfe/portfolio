@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<!-- <html lang="en" data-bs-theme="dark"> -->
+<html lang="en" data-bs-theme="dark">
 
 <head>
   <meta charset="UTF-8">
@@ -54,9 +54,9 @@
 
         <!-- Profile Picture -->
 
-        <img src="assets/images/profile.png" class="rounded float-end" alt="">
+        <img src="assets/images/profile.png" class="rounded float-end" id="Eva" alt="">
 
-
+        <!-- About Me Paragraph -->
 
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, assumenda! Et facilis placeat quidem,
@@ -68,7 +68,7 @@
     </section>
 
     <!-- Work -->
-    <section class="container">
+    <section class="container flex-column">
       <!-- Bootstrap Button wraps around h2-->
 
       <h2 class="text-center" id="work" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWork"
@@ -77,16 +77,53 @@
       <!-- Div class & id used to collapse wraps around p -->
       <div class="collapse" id="collapseWork">
 
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum eum odio deserunt dolorem maiores eligendi
-          delectus facilis sed voluptatibus voluptatem? Quo dolore veniam nostrum rem reiciendis optio quia. Expedita,
-          voluptatibus?
-        </p>
+        <!-- Week 3 Work -->
+
+        <div class="card" style="width: 18rem;">
+          <img src="assets/images/week3.jpeg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Week 3</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, adipisci sed dicta iure
+              ratione accusantium illo facilis quae fugit quos excepturi dolorem inventore esse, aut assumenda aliquid,
+              similique exercitationem totam.</p>
+            <a href="#" class="btn btn-primary">Week 3</a>
+          </div>
+        </div>
+
+        <!-- Week 4 -->
+
+        <div class="card" style="width: 18rem;">
+          <img src="assets/images/week4.jpeg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Week 4</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, adipisci sed dicta iure
+              ratione accusantium illo facilis quae fugit quos excepturi dolorem inventore esse, aut assumenda aliquid,
+              similique exercitationem totam.</p>
+            <a href="#" class="btn btn-primary">Week 4</a>
+          </div>
+
+          <!-- Week 5 -->
+
+          <div class="card" style="width: 18rem;">
+            <img src="assets/images/week5.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Week 5</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, adipisci sed dicta
+                iure
+                ratione accusantium illo facilis quae fugit quos excepturi dolorem inventore esse, aut assumenda
+                aliquid,
+                similique exercitationem totam.</p>
+              <a href="#" class="btn btn-primary">Week 5</a>
+            </div>
+          </div>
+        </div>
+
+
       </div>
     </section>
 
     <!-- Contact Me -->
-    <section class="container">
+    <section class="container flex-column">
       <!-- Bootstrap Button wraps around h2 -->
 
       <h2 class="text-center" id="contactMe" type="button" data-bs-toggle="collapse" data-bs-target="#collapseContactMe"
@@ -119,5 +156,5 @@
   </main>
 
   <!-- Footer -->
-  <footer>Eva <i class="bi bi-cup-hot"></i> Wolfe | 2024 &copy;</footer>
+  <footer>Eva <i class="bi bi-cup-hot"></i> Wolfe | &copy; 2024 </footer>
 </body>
